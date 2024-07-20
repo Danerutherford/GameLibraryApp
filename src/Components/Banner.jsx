@@ -1,16 +1,14 @@
-import headerImage from "../Images/HeaderImageDiscs.png"
+import headerImage from "../Images/HeaderImageDiscs.png";
 const Banner = (props) => {
   return (
-    <div className="row">
-      <div className="col-5">
-         <img src={headerImage}/>
-      </div>
-
-      <div className="col-7">
-      <h3>Game Library</h3>
+    <div className='container'>
+      <div className='d-flex flex-row justify-content-center'>
+        <div className='display-1' id='siteTitle'>
+          Game Library
+        </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default Banner;
