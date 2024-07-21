@@ -4,7 +4,7 @@ import Game from "./GamesObject.jsx";
 
 const GameList = (props) => {
   return (
-    <div className='container text-center'>
+    <div>
       <div class='row'>
         {/* For loop through list of game from file or db file */}
         <Game />

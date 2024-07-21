@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 
 function App() {
   return (
-    <div>
+    <div id='siteBg'>
       <Banner />
       <NavBar />
       <GamesList />
